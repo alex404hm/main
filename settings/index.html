@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>NightlifeRP</title>    
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="https://nightliferp.dk/assets/logo.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <img src="" alt="">
+                    <span class="name">NightlifeRP</span>
+                    <span class="profession">Danish Roleplay</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                    <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="/">
+                            <i class='bx bxs-home icon' ></i>
+                            <span class="text nav-text">Forside</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/login/">
+                            <i class='bx bx-user icon' ></i>
+                            <span class="text nav-text">Konto</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/status/">
+                            <i class='bx bxs-server icon'></i>
+                            <span class="text nav-text">Status</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="/shop/">
+                            <i class='bx bxs-store-alt icon' ></i>
+                            <span class="text nav-text">Shop</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                      <a href="/settings/">
+                          <i class='bx bx-cog icon' ></i>
+                          <span class="text nav-text">Indstillinger</span>
+                      </a>
+                  </li>
+
+                    <li class="nav-link">
+                        <a href="https://discord.com/invite/NLRP">
+                            <i class='bx bxl-discord-alt icon' ></i>
+                            <span class="text nav-text">Discord</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bxl-blogger icon'></i>
+                        <span class="text nav-text">Blog</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+    </section>
+    <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+      
+        </ul>
+        <p id="copyright">&copy;  <span id="currentYear"></span> NightlifeRP | All Rights Reserved</p>
+      
+    </ul>
+  </footer>
+</body>
+</html>
+<script src="/script.js"></script>
+<script>
+const currentYear = new Date().getFullYear();
+document.getElementById('currentYear').textContent = currentYear;
+
+</script>

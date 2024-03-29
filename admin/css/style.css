@@ -1,0 +1,9 @@
+#sticky-footer {
+  flex-shrink: none;
+}
+.text-center span{
+  color: red;
+}
+.text-center{
+  font-weight: bolder;
+}
