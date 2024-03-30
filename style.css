@@ -450,15 +450,112 @@ margin-top: 599px;
 
         color: #fff;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 100px;
     }
     .front h1{
         font-size: 3em;
     }
     .front img{
-        width: 300px;
+        width: 200px;
     }
     .front span{
         color: red;
     }
-    
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+	text-align: center;
+	margin: 0;
+	color: #e1e1e1;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	overflow: hidden;
+}
+
+.container {
+	text-align: center;
+	margin-top: 110px;
+	margin-left: 310px;
+	width: fit-content;
+	max-width: 80rem;
+	height: fit-content;
+}
+
+.status-badge {
+	text-align: center;
+	width: fit-content;
+	margin: 1rem auto;
+	border-radius: 10px;
+	padding: 0 .5rem;
+}
+
+#onlineBadge {
+	color: #333;
+	background-color: #0fd112;
+}
+
+#offlineBadge {
+	text-align: center;
+	color: #f1f1f1;
+	background-color: #c9190c;
+}
+
+.server-name {
+	font-weight: 700;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.info-title {
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.info-title svg {
+	width: 1em;
+	fill: #4799eb;
+	margin-right: .5em;
+}
+
+.info-data {
+	font-size: 5rem;
+	font-weight: 700;
+}
+
+.info-connect {
+	width: fit-content;
+	font-size: .9rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	cursor: pointer;
+	transition: color .2s;
+	margin: 1rem auto;
+}
+
+.info-connect svg {
+	width: .9em;
+	fill: #f1f1f1;
+	margin-right: .2em;
+	transition: fill .2s;
+}
+
+.info-connect:hover {
+	color: #4799eb;
+}
+
+.info-connect:hover svg {
+	fill: #4799eb;
+}
+.settings1 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: #fff;
+}

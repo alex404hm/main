@@ -24,5 +24,3 @@ modeSwitch.addEventListener("click" , () =>{
         
     }
 });
-
-// AH FiveM Website TEMPLATE PLZ DO NOT TAKE CREDIT FOR MY WORK //
